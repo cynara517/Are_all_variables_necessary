@@ -12,7 +12,7 @@ This workflow relies on published computational tools, including [scikit-learn](
 
 ### Step 1: Dataset and Feature Space Definition
 
-The dataset utilized in this study comprises 4,608 experimental data points for Buchwald–Hartwig amination reactions, originally reported by Ahneman *et al.*⁶ The raw input data is located in the `data/raw/` folder.
+The dataset utilized in this study comprises 4,608 experimental data points for Buchwald–Hartwig amination reactions, originally reported by Ahneman*, Doyle et al.(1). The raw input data is located in the `data/raw/` folder.
 
 Each reaction instance is characterized within a high-dimensional feature space consisting of 120 DFT descriptors. These descriptors are systematically categorized into three classes (molecular, atomic, and vibrational descriptors). 
 
@@ -54,10 +54,3 @@ To extract mechanistic insights and interpret the decision-making process of our
 
 ### References
 
-1. Pedregosa, F. *et al.* Scikit-learn: Machine Learning in Python. *J. Mach. Learn. Res.* **12**, 2825–2830 (2011). [Link](https://scikit-learn.org/)
-2. Akiba, T., Sano, S., Yanase, T., Ohta, T., & Koyama, M. Optuna: A Next-generation Hyperparameter Optimization Framework. In *KDD* (2019). [Link](https://optuna.org/)
-3. Prokhorenkova, L., Gusev, G., Vorobev, A., Dorogush, A. V., & Gulin, A. CatBoost: unbiased boosting with categorical features. *Advances in neural information processing systems*, 31 (2018). [Link](https://catboost.ai/)
-4. Ke, G. *et al.* LightGBM: A Highly Efficient Gradient Boosting Decision Tree. *Advances in Neural Information Processing Systems*, 30 (2017). [Link](https://lightgbm.readthedocs.io/en/latest/)
-5. Lundberg, S. M. & Lee, S.-I. A Unified Approach to Interpreting Model Predictions. *Advances in Neural Information Processing Systems* **30** (2017). [Link](https://shap.readthedocs.io/)
-6. Ahneman, D. K., Estrada, J. G., Lin, S., Dreher, S. D. & Doyle, A. G. Predicting reaction performance in C–N cross-coupling using machine learning. *Science* **360**, 186–190 (2018).
-7. `[Please Add Your Collaborator's Base Protocol Paper Here if applicable]`
