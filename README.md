@@ -10,7 +10,7 @@ This workflow relies on published computational tools, including [scikit-learn](
 
 ---
 
-### Step 1: Dataset and Feature Space Definition
+### Step 0: Dataset and Feature Space Definition
 
 The dataset utilized in this study comprises 4,608 experimental data points for Buchwald–Hartwig amination reactions, originally reported by Ahneman*, Doyle et al.(1). The raw input data is located in the `data/raw/` folder.
 
@@ -20,7 +20,7 @@ Each reaction instance is characterized within a high-dimensional feature space 
 
 ---
 
-### Step 2: Information Decoupling and Feature Selection
+### Step 1: Information Decoupling and Feature Selection
 
 To decouple redundant information and extract essential features, a four-stage variable screening paradigm was developed. The scripts are located in the `scripts/01_information_decoupling/` directory.
 
@@ -30,7 +30,7 @@ To decouple redundant information and extract essential features, a four-stage v
 4.  **Dimensionality Reduction:** Selects the highest informational contributor for each chain.
 
 This systematic reduction resulted in **30 essential key variables**, effectively eliminating 75% of the original redundancy.
-### Step 3: Machine Learning Architecture and Bayesian Optimization
+### Step 2: Machine Learning Architecture and Bayesian Optimization
 
 The `scripts/02_machine_learning/` folder contains the Python scripts used to evaluate predictive performance using six representative regression algorithms (Random Forest, CatBoost, LightGBM, SVM, KRR, RBF).
 
@@ -40,13 +40,13 @@ To ensure reproducibility, models were evaluated via a 5-fold cross-validation s
 
 ---
 
-### Step 4: Hierarchical Clustering
+### Step 3: Hierarchical Clustering
 
 Additive clustering based on Euclidean distance quantification was performed using the script `scripts/03_hierarchical_clustering/clustering_analysis.py`. This analysis helps in understanding the structural and chemical similarities among the additives in the decoupled feature space.
 
 ---
 
-### Step 5: SHAP Analysis
+### Step 4: SHAP Analysis
 
 To extract mechanistic insights and interpret the decision-making process of our optimized tree-based models, SHAP (SHapley Additive exPlanations) values were calculated. The analysis is located in `scripts/04_shap_analysis/`. This implementation builds upon the original game-theoretic framework and `shap` library developed by Lundberg and Lee.⁵
 
