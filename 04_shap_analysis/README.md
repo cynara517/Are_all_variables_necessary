@@ -1,0 +1,1 @@
+Details of SHAP value calculation and model interpretability analysis, using the RF model as an example; it can be replaced with any of the other five models. Note that several of these models have considerable computational speed and require a certain level of CPU and GPU performance. If the execution is not smooth, consider reducing the number of SHAP sampling points.
