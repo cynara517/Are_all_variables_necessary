@@ -1,4 +1,5 @@
-# Are all variables necessary? Reshaping the C-N cross-coupling yield prediction paradigm
+# Are all the variables necessary? A case study of 120 variables for C-N cross-coupling reaction
+
 
 This repository contains scripts for a four-step information decoupling workflow designed to reduce 120 DFT descriptors to 30 key variables, significantly reshaping the yield prediction paradigm for Buchwald-Hartwig amination reactions. Alongside the feature selection workflow, this repository includes scripts for machine learning modeling, hierarchical clustering, and SHAP analysis, as well as the Excel spreadsheets with the initial descriptor matrices and input data. 
 
