@@ -1,0 +1,1 @@
+The following models were used: Random Forest (RF), Categorical Boosting (CatBoost), Light Gradient Boosting Machine (LightGBM), Support Vector Machine (SVM), Kernel Ridge Regression (KRR), and Radial Basis Function (RBF), along with the Bayesian optimization algorithm for model hyperparameter tuning.
