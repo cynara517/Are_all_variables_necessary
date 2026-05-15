@@ -7,7 +7,7 @@ This workflow refers to our paper currently under review.
 
 ### Dependencies
 
-This workflow relies on published computational tools, including [scikit-learn](1),  [Euclidean spatial distance](2), [Pearson correlation](3), [Ridge regression](4), [MIC](5) and [SHAP](6). See the links for detailed installation guides and documentation.
+This workflow relies on published computational tools, including scikit-learn(1), Euclidean spatial distance(2), Pearson correlation(3), Ridge regression(4), MIC(5) and SHAP(6). See the links for detailed installation guides and documentation.
 
 ---
 
@@ -55,15 +55,27 @@ To extract mechanistic insights and interpret the decision-making process of our
 
 ### References
 1.https://scikit-learn.org/stable/index.html
+
 2.D. S. Broomhead, D. Lowe, Multivariable functional interpolation and adaptive networks. Complex Syst. 2, 321-355 (1988).
+
 3.K. Pearson, Mathematical contributions to the theory of evolution.—III. Regression, heredity, and panmixia. Philos. Trans. R. Soc. London Ser. A 187, 253-318 (1896).
+
 4.A. E. Hoerl, R. W. Kennard, Ridge regression: Biased estimation for nonorthogonal problems. Technometrics 12, 55-67 (1970).
+
 5.C. E. Shannon, A mathematical theory of communication. Bell Syst. Tech. J. 27, 379-423
+
 6.S. M. Lundberg, S. I. Lee, A unified approach to interpreting model predictions. Adv. Neural Inf. Process. Syst. 30, 4765-4774 (2017).
+
 7.L. Breiman, Random forests. Mach. Learn. 45, 5-32 (2001).
+
 8.L. Prokhorenkova, G. Gusev, A. Vorobev, A. V. Dorogush, A. Gulin, CatBoost: unbiased boosting with categorical features. Adv. Neural Inf. Process. Syst. 31, 6639-6649 (2018).
+
 9.G. Ke et al., LightGBM: A highly efficient gradient boosting decision tree. Adv. Neural Inf. Process. Syst. 30, 3146-3154 (2017).
+
 10.C. Cortes, V. Vapnik, Support-vector networks. Mach. Learn. 20, 273-297 (1995).
+
 11.B. E. Boser, I. M. Guyon, V. N. Vapnik, A training algorithm for optimal margin classifiers. Proc. 5th Annu. Workshop Comput. Learn. Theory (ACM, 1992), pp. 144-152.
+
 12.C. Saunders, A. Gammerman, V. Vovk, Ridge regression learning algorithm in dual variables. Proc. 15th Int. Conf. Mach. Learn. (1998), pp. 515-521.
+
 13.https://distill.pub/2020/bayesian-optimization/
